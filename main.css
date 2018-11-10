@@ -96,28 +96,35 @@ and (max-device-width: 568px) {
         margin-bottom: 1rem;
         margin-left: 2rem;
         margin-right: 2rem;
-        font-size: .75rem;
+        font-size: 1rem;
     }
     .statement-index {
         margin-top: 0rem;
         margin-bottom: 1rem;
         margin-left: 2rem;
         margin-right: 2rem;
-        font-size: .75rem;
+        font-size: 1rem;
     }
     .statement-projects {
         margin-top: 1.5rem;
         margin-bottom: 1rem;
         margin-left: 3rem;
         margin-right: 3rem;
-        font-size: .75rem;
+        font-size: 1rem;
     }
     .statement-projects-2 {
         margin-top: 0rem;
         margin-bottom: 1rem;
         margin-left: 3rem;
         margin-right: 3rem;
-        font-size: .75rem;
+        font-size: 1rem;
+    }
+    .statement-contact {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        font-size: 1.125rem;
     }
     .button {
         font-size: 2rem;
@@ -142,25 +149,25 @@ and (max-device-width: 667px) {
     }
     .statement {
         margin: 1.5rem;
-        font-size: .75rem;
+        font-size: 1.125rem;
     }
     .statement-index {
         margin: 1.5rem;
-        font-size: .75rem;
+        font-size: 1.125rem;
     }
     .statement-projects {
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
         margin-left: 3rem;
         margin-right: 3rem;
-        font-size: .75rem;
+        font-size: 1.125rem;
     }
     .statement-projects-2 {
         margin-top: 0rem;
         margin-bottom: 1.5rem;
         margin-left: 3rem;
         margin-right: 3rem;
-        font-size: .75rem;
+        font-size: 1.125rem;
     }
     .button {
         font-size: 2rem;
@@ -185,25 +192,25 @@ and (max-device-width: 736px) {
     }
     .statement {
         margin: 1.5rem;
-        font-size: .75rem;
+        font-size: 1.125rem;
     }
     .statement-index {
         margin: 1.5rem;
-        font-size: .75rem;
+        font-size: 1.125rem;
     }
     .statement-projects {
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
         margin-left: 2rem;
         margin-right: 2rem;
-        font-size: .75rem;
+        font-size: 1.125rem;
     }
     .statement-projects-2 {
         margin-top: 0rem;
         margin-bottom: 1.5rem;
         margin-left: 3rem;
         margin-right: 3rem;
-        font-size: .75rem;
+        font-size: 1.125rem;
     }
     .button {
         font-size: 2rem;
