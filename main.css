@@ -5,8 +5,16 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.navbar {
+    background-color:rgb(218, 239, 235);
+}
+
 .navbar-brand {
     font-size: 2rem;
+}
+
+.icon {
+    font-size: 1.5rem;
 }
 
 .statement {
