@@ -36,6 +36,8 @@ and (min-device-width: 375px)
 and (max-device-width: 667px) {
     .navbar {
         display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
     }
     .statement {
@@ -53,6 +55,8 @@ and (min-device-width: 414px)
 and (max-device-width: 736px) {
     .navbar {
         display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
     }
     .statement {
@@ -70,6 +74,8 @@ and (min-device-width: 320px)
 and (max-device-width: 568px) {
     .navbar {
         display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
     }
     .statement {
