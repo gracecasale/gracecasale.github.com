@@ -14,7 +14,10 @@
 }
 
 .statement {
-    margin: 1rem;
+    margin: 3rem;
+    font-size: 18px;
+    width: 80vw;
+    height: 80vh;
 }
 
 .footer {
