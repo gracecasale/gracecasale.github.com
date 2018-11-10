@@ -3,7 +3,6 @@
     padding: 0;
     font-size: 16px; 
     font-family: 'Roboto Condensed', sans-serif;
-
 }
 
 .navbar-brand {
@@ -15,6 +14,10 @@
 }
 
 .statement {
+    margin: 1rem;
+}
+
+.footer {
     margin: 1rem;
 }
 
