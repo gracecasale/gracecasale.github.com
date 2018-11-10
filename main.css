@@ -11,6 +11,15 @@
 
 .navbar-brand {
     font-size: 2rem;
+    border-style: solid;
+    border-width: thin;
+    border-color: transparent;
+}
+
+.navbar-brand:hover {
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(169,209,201);
 }
 
 .icon {
