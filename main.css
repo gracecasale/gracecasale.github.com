@@ -3,6 +3,7 @@
     padding: 0;
     font-size: 1rem; 
     font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: content-box;
 }
 
 .navbar {
@@ -80,9 +81,10 @@ and (max-device-width: 568px) {
     .navbar {
         display:flex;
         flex-direction: column;
+        justify-content: center;
         flex-wrap: nowrap;
         font-size: 0.937rem;
-        width: 100vw;
+        width: 90vw;
     }
     .navbar-brand {
         font-size: 2rem;
@@ -90,11 +92,15 @@ and (max-device-width: 568px) {
         justify-content: center;
     }
     .statement {
-        margin: 1rem;
-        font-size: 1rem;
+        margin: 1.5rem;
+        font-size: .75rem;
     }
-    .contact-button {
-        font-size: 2rem;
+    .statement-index {
+        margin: 1.5rem;
+        font-size: .75rem;
+    }
+    .button {
+        font-size: 1rem;
     }
 }
 
@@ -107,7 +113,7 @@ and (max-device-width: 667px) {
         flex-direction: column;
         flex-wrap: nowrap;
         font-size: 0.937rem;
-        width: 100vw;
+        width: 92vw;
     }
     .navbar-brand {
         font-size: 2rem;
@@ -115,11 +121,15 @@ and (max-device-width: 667px) {
         justify-content: center;
     }
     .statement {
-        margin: 1rem;
-        font-size: 1rem;
+        margin: 1.5rem;
+        font-size: .75rem;
     }
-    .contact-button {
-        font-size: 2rem;
+    .statement-index {
+        margin: 1.5rem;
+        font-size: .75rem;
+    }
+    .button {
+        font-size: 1rem;
     }
 }
 
@@ -132,7 +142,7 @@ and (max-device-width: 736px) {
         flex-direction: column;
         flex-wrap: nowrap;
         font-size: 0.937rem;
-        width: 100vw;
+        width: 92vw;
     }
     .navbar-brand {
         font-size: 2rem;
@@ -140,10 +150,14 @@ and (max-device-width: 736px) {
         justify-content: center;
     }
     .statement {
-        margin: 1rem;
-        font-size: 1rem;
+        margin: 1.5rem;
+        font-size: .75rem;
     }
-    .contact-button {
-        font-size: 2rem;
+    .statement-index {
+        margin: 1.5rem;
+        font-size: .75rem;
+    }
+    .button {
+        font-size: 1rem;
     }
 }
