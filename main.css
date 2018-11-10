@@ -30,19 +30,50 @@
     margin: 1rem;
 }
 
+/*iPhone 5 */
+@media only screen 
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+    .navbar {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        font-size: 15px;
+        width: 100vw;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+    .statement {
+        margin: 1rem;
+        font-size: 1rem;
+    }
+    .contact-button {
+        font-size: 2rem;
+    }
+}
+
 /*iPhone 6/7/8 */
 @media only screen 
 and (min-device-width: 375px)
 and (max-device-width: 667px) {
     .navbar {
         display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        font-size: 15px;
+        width: 100vw;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+        display: flex;
         justify-content: center;
     }
     .statement {
         margin: 1rem;
-        font-size: 18px;
+        font-size: 1rem;
     }
     .contact-button {
         font-size: 2rem;
@@ -55,32 +86,19 @@ and (min-device-width: 414px)
 and (max-device-width: 736px) {
     .navbar {
         display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        font-size: 15px;
+        width: 100vw;
     }
-    .statement {
-        margin: 1rem;
-        font-size: 18px;
-    }
-    .contact-button {
+    .navbar-brand {
         font-size: 2rem;
-    }
-}
-
-/*iPhone 5 */
-@media only screen 
-and (min-device-width: 320px)
-and (max-device-width: 568px) {
-    .navbar {
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        display: flex;
         justify-content: center;
     }
     .statement {
         margin: 1rem;
-        font-size: 18px;
+        font-size: 1rem;
     }
     .contact-button {
         font-size: 2rem;
